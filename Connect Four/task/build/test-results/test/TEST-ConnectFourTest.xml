@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ConnectFourTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2022-08-17T12:53:32" hostname="MacBook-Air-Ivan.local" time="0.172">
+  <properties/>
+  <testcase name="start" classname="ConnectFourTest" time="0.172">
+    <failure message="java.lang.AssertionError: Wrong answer in test #6&#10;&#10;Wrong prompt for player's turn.&#10;&#10;Please find below the output of your program during this failed test.&#10;Note that the '&gt;' character indicates the beginning of the input line.&#10;&#10;---&#10;&#10;Connect Four&#10;First player's name:&#10;&gt; Anna&#10;Second player's name:&#10;&gt; Joan&#10;Set the board dimensions (Rows x Columns)&#10;Press Enter for default (6 x 7)&#10;&gt; 5X5&#10;Do you want to play single or multiple games?&#10;For a single game, input 1 or press Enter&#10;Input a number of games:&#10;&gt; 3&#10;Anna VS Joan&#10;5 X 5 board&#10;Total 3 games&#10;Game #1&#10; 1 2 3 4 5 &#10;║ ║ ║ ║ ║ ║&#10;║ ║ ║ ║ ║ ║&#10;║ ║ ║ ║ ║ ║&#10;║ ║ ║ ║ ║ ║&#10;║ ║ ║ ║ ║ ║&#10;╚═╩═╩═╩═╩═╝&#10;Anna's turn:&#10;&gt; 5&#10; 1 2 3 4 5 &#10;║ ║ ║ ║ ║ ║&#10;║ ║ ║ ║ ║ ║&#10;║ ║ ║ ║ ║ ║&#10;║ ║ ║ ║ ║ ║&#10;║ ║ ║ ║ ║o║&#10;╚═╩═╩═╩═╩═╝&#10;Anna's turn:" type="java.lang.AssertionError">java.lang.AssertionError: Wrong answer in test #6
+
+Wrong prompt for player's turn.
+
+Please find below the output of your program during this failed test.
+Note that the '&gt;' character indicates the beginning of the input line.
+
+---
+
+Connect Four
+First player's name:
+&gt; Anna
+Second player's name:
+&gt; Joan
+Set the board dimensions (Rows x Columns)
+Press Enter for default (6 x 7)
+&gt; 5X5
+Do you want to play single or multiple games?
+For a single game, input 1 or press Enter
+Input a number of games:
+&gt; 3
+Anna VS Joan
+5 X 5 board
+Total 3 games
+Game #1
+ 1 2 3 4 5 
+║ ║ ║ ║ ║ ║
+║ ║ ║ ║ ║ ║
+║ ║ ║ ║ ║ ║
+║ ║ ║ ║ ║ ║
+║ ║ ║ ║ ║ ║
+╚═╩═╩═╩═╩═╝
+Anna's turn:
+&gt; 5
+ 1 2 3 4 5 
+║ ║ ║ ║ ║ ║
+║ ║ ║ ║ ║ ║
+║ ║ ║ ║ ║ ║
+║ ║ ║ ║ ║ ║
+║ ║ ║ ║ ║o║
+╚═╩═╩═╩═╩═╝
+Anna's turn:
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.hyperskill.hstest.stage.StageTest.start(StageTest.java:155)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at jdk.proxy1/jdk.proxy1.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$2.run(TestWorker.java:176)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:133)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</failure>
+  </testcase>
+  <system-out><![CDATA[?[1;31m
+Start test 1?[0m
+Connect Four
+First player's name:
+> Anna
+Second player's name:
+> Joan
+Set the board dimensions (Rows x Columns)
+Press Enter for default (6 x 7)
+> 4x5
+Board rows should be from 5 to 9
+Set the board dimensions (Rows x Columns)
+Press Enter for default (6 x 7)
+> 4X5
+Board rows should be from 5 to 9
+Set the board dimensions (Rows x Columns)
+Press Enter for default (6 x 7)
+> 10x6
+Board rows should be from 5 to 9
+Set the board dimensions (Rows x Columns)
+Press Enter for default (6 x 7)
+> 12x6
+Board rows should be from 5 to 9
+Set the board dimensions (Rows x Columns)
+Press Enter for default (6 x 7)
+> 6x1
+Board columns should be from 5 to 9
+Set the board dimensions (Rows x Columns)
+Press Enter for default (6 x 7)
+> 7X4
+Board columns should be from 5 to 9
+Set the board dimensions (Rows x Columns)
+Press Enter for default (6 x 7)
+> 8x10
+Board columns should be from 5 to 9
+Set the board dimensions (Rows x Columns)
+Press Enter for default (6 x 7)
+> 9x30
+Board columns should be from 5 to 9
+Set the board dimensions (Rows x Columns)
+Press Enter for default (6 x 7)
+?[1;31m
+Start test 2?[0m
+Connect Four
+First player's name:
+> Anna
+Second player's name:
+> Joan
+Set the board dimensions (Rows x Columns)
+Press Enter for default (6 x 7)
+> 6x
+Invalid input
+Set the board dimensions (Rows x Columns)
+Press Enter for default (6 x 7)
+> X5
+Invalid input
+Set the board dimensions (Rows x Columns)
+Press Enter for default (6 x 7)
+> 10k6
+Invalid input
+Set the board dimensions (Rows x Columns)
+Press Enter for default (6 x 7)
+> 12Z6
+Invalid input
+Set the board dimensions (Rows x Columns)
+Press Enter for default (6 x 7)
+> a  7x9
+Invalid input
+Set the board dimensions (Rows x Columns)
+Press Enter for default (6 x 7)
+> 5x8  t
+Invalid input
+Set the board dimensions (Rows x Columns)
+Press Enter for default (6 x 7)
+?[1;31m
+Start test 3?[0m
+Connect Four
+First player's name:
+> Anna
+Second player's name:
+> Joan
+Set the board dimensions (Rows x Columns)
+Press Enter for default (6 x 7)
+> 5x5
+Do you want to play single or multiple games?
+For a single game, input 1 or press Enter
+Input a number of games:
+> 1
+Anna VS Joan
+5 X 5 board
+Single game
+ 1 2 3 4 5 
+║ ║ ║ ║ ║ ║
+║ ║ ║ ║ ║ ║
+║ ║ ║ ║ ║ ║
+║ ║ ║ ║ ║ ║
+║ ║ ║ ║ ║ ║
+╚═╩═╩═╩═╩═╝
+Anna's turn:
+Connect Four
+First player's name:
+> Anna
+Second player's name:
+> Joan
+Set the board dimensions (Rows x Columns)
+Press Enter for default (6 x 7)
+> 9X9
+Do you want to play single or multiple games?
+For a single game, input 1 or press Enter
+Input a number of games:
+> 1
+Anna VS Joan
+9 X 9 board
+Single game
+ 1 2 3 4 5 6 7 8 9 
+║ ║ ║ ║ ║ ║ ║ ║ ║ ║
+║ ║ ║ ║ ║ ║ ║ ║ ║ ║
+║ ║ ║ ║ ║ ║ ║ ║ ║ ║
+║ ║ ║ ║ ║ ║ ║ ║ ║ ║
+║ ║ ║ ║ ║ ║ ║ ║ ║ ║
+║ ║ ║ ║ ║ ║ ║ ║ ║ ║
+║ ║ ║ ║ ║ ║ ║ ║ ║ ║
+║ ║ ║ ║ ║ ║ ║ ║ ║ ║
+║ ║ ║ ║ ║ ║ ║ ║ ║ ║
+╚═╩═╩═╩═╩═╩═╩═╩═╩═╝
+Anna's turn:
+Connect Four
+First player's name:
+> Anna
+Second player's name:
+> Joan
+Set the board dimensions (Rows x Columns)
+Press Enter for default (6 x 7)
+> 9X5
+Do you want to play single or multiple games?
+For a single game, input 1 or press Enter
+Input a number of games:
+> 1
+Anna VS Joan
+9 X 5 board
+Single game
+ 1 2 3 4 5 
+║ ║ ║ ║ ║ ║
+║ ║ ║ ║ ║ ║
+║ ║ ║ ║ ║ ║
+║ ║ ║ ║ ║ ║
+║ ║ ║ ║ ║ ║
+║ ║ ║ ║ ║ ║
+║ ║ ║ ║ ║ ║
+║ ║ ║ ║ ║ ║
+║ ║ ║ ║ ║ ║
+╚═╩═╩═╩═╩═╝
+Anna's turn:
+Connect Four
+First player's name:
+> Anna
+Second player's name:
+> Joan
+Set the board dimensions (Rows x Columns)
+Press Enter for default (6 x 7)
+> 
+Do you want to play single or multiple games?
+For a single game, input 1 or press Enter
+Input a number of games:
+> 1
+Anna VS Joan
+6 X 7 board
+Single game
+ 1 2 3 4 5 6 7 
+║ ║ ║ ║ ║ ║ ║ ║
+║ ║ ║ ║ ║ ║ ║ ║
+║ ║ ║ ║ ║ ║ ║ ║
+║ ║ ║ ║ ║ ║ ║ ║
+║ ║ ║ ║ ║ ║ ║ ║
+║ ║ ║ ║ ║ ║ ║ ║
+╚═╩═╩═╩═╩═╩═╩═╝
+Anna's turn:
+Connect Four
+First player's name:
+> Anna
+Second player's name:
+> Joan
+Set the board dimensions (Rows x Columns)
+Press Enter for default (6 x 7)
+>    7   x   9   
+Do you want to play single or multiple games?
+For a single game, input 1 or press Enter
+Input a number of games:
+> 1
+Anna VS Joan
+7 X 9 board
+Single game
+ 1 2 3 4 5 6 7 8 9 
+║ ║ ║ ║ ║ ║ ║ ║ ║ ║
+║ ║ ║ ║ ║ ║ ║ ║ ║ ║
+║ ║ ║ ║ ║ ║ ║ ║ ║ ║
+║ ║ ║ ║ ║ ║ ║ ║ ║ ║
+║ ║ ║ ║ ║ ║ ║ ║ ║ ║
+║ ║ ║ ║ ║ ║ ║ ║ ║ ║
+║ ║ ║ ║ ║ ║ ║ ║ ║ ║
+╚═╩═╩═╩═╩═╩═╩═╩═╩═╝
+Anna's turn:
+Connect Four
+First player's name:
+> Anna
+Second player's name:
+> Joan
+Set the board dimensions (Rows x Columns)
+Press Enter for default (6 x 7)
+>   8  X   6   
+Do you want to play single or multiple games?
+For a single game, input 1 or press Enter
+Input a number of games:
+> 1
+Anna VS Joan
+8 X 6 board
+Single game
+ 1 2 3 4 5 6 
+║ ║ ║ ║ ║ ║ ║
+║ ║ ║ ║ ║ ║ ║
+║ ║ ║ ║ ║ ║ ║
+║ ║ ║ ║ ║ ║ ║
+║ ║ ║ ║ ║ ║ ║
+║ ║ ║ ║ ║ ║ ║
+║ ║ ║ ║ ║ ║ ║
+║ ║ ║ ║ ║ ║ ║
+╚═╩═╩═╩═╩═╩═╝
+Anna's turn:
+Connect Four
+First player's name:
+> Anna
+Second player's name:
+> Joan
+Set the board dimensions (Rows x Columns)
+Press Enter for default (6 x 7)
+> 	  9 	X 	5  	 
+Do you want to play single or multiple games?
+For a single game, input 1 or press Enter
+Input a number of games:
+> 1
+Anna VS Joan
+9 X 5 board
+Single game
+ 1 2 3 4 5 
+║ ║ ║ ║ ║ ║
+║ ║ ║ ║ ║ ║
+║ ║ ║ ║ ║ ║
+║ ║ ║ ║ ║ ║
+║ ║ ║ ║ ║ ║
+║ ║ ║ ║ ║ ║
+║ ║ ║ ║ ║ ║
+║ ║ ║ ║ ║ ║
+║ ║ ║ ║ ║ ║
+╚═╩═╩═╩═╩═╝
+Anna's turn:
+?[1;31m
+Start test 4?[0m
+Connect Four
+First player's name:
+> Anna
+Second player's name:
+> Joan
+Set the board dimensions (Rows x Columns)
+Press Enter for default (6 x 7)
+> 8x7
+Do you want to play single or multiple games?
+For a single game, input 1 or press Enter
+Input a number of games:
+> 
+Anna VS Joan
+8 X 7 board
+Single game
+ 1 2 3 4 5 6 7 
+║ ║ ║ ║ ║ ║ ║ ║
+║ ║ ║ ║ ║ ║ ║ ║
+║ ║ ║ ║ ║ ║ ║ ║
+║ ║ ║ ║ ║ ║ ║ ║
+║ ║ ║ ║ ║ ║ ║ ║
+║ ║ ║ ║ ║ ║ ║ ║
+║ ║ ║ ║ ║ ║ ║ ║
+║ ║ ║ ║ ║ ║ ║ ║
+╚═╩═╩═╩═╩═╩═╩═╝
+Anna's turn:
+?[1;31m
+Start test 5?[0m
+Connect Four
+First player's name:
+> Anna
+Second player's name:
+> Joan
+Set the board dimensions (Rows x Columns)
+Press Enter for default (6 x 7)
+> 5X5
+Do you want to play single or multiple games?
+For a single game, input 1 or press Enter
+Input a number of games:
+> 1
+Anna VS Joan
+5 X 5 board
+Single game
+ 1 2 3 4 5 
+║ ║ ║ ║ ║ ║
+║ ║ ║ ║ ║ ║
+║ ║ ║ ║ ║ ║
+║ ║ ║ ║ ║ ║
+║ ║ ║ ║ ║ ║
+╚═╩═╩═╩═╩═╝
+Anna's turn:
+> 0
+The column number is out of range (1 - 5)
+Anna's turn:
+> 6
+The column number is out of range (1 - 5)
+Anna's turn:
+> 7
+The column number is out of range (1 - 5)
+Anna's turn:
+> 10
+The column number is out of range (1 - 5)
+Anna's turn:
+> 122
+The column number is out of range (1 - 5)
+Anna's turn:
+> one
+Incorrect column number
+Anna's turn:
+> 7i
+Incorrect column number
+Anna's turn:
+> k
+Incorrect column number
+Anna's turn:
+> 12z
+Incorrect column number
+Anna's turn:
+> end
+Game over!
+?[1;31m
+Start test 6?[0m
+Connect Four
+First player's name:
+> Anna
+Second player's name:
+> Joan
+Set the board dimensions (Rows x Columns)
+Press Enter for default (6 x 7)
+> 5X5
+Do you want to play single or multiple games?
+For a single game, input 1 or press Enter
+Input a number of games:
+> 3
+Anna VS Joan
+5 X 5 board
+Total 3 games
+Game #1
+ 1 2 3 4 5 
+║ ║ ║ ║ ║ ║
+║ ║ ║ ║ ║ ║
+║ ║ ║ ║ ║ ║
+║ ║ ║ ║ ║ ║
+║ ║ ║ ║ ║ ║
+╚═╩═╩═╩═╩═╝
+Anna's turn:
+> 5
+ 1 2 3 4 5 
+║ ║ ║ ║ ║ ║
+║ ║ ║ ║ ║ ║
+║ ║ ║ ║ ║ ║
+║ ║ ║ ║ ║ ║
+║ ║ ║ ║ ║o║
+╚═╩═╩═╩═╩═╝
+Anna's turn:
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
